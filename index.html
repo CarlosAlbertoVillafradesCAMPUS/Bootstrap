@@ -21,8 +21,8 @@
             <div class="p-5 psm-2 bg-dark text-white">4</div>
         </div>
     </div> -->
-    <header class="d-flex justify-content-between w-100 bg-light p-3">
-        <h1 class="float-start">Villa-Shop</h1>
+    <header class="d-flex justify-content-between align-items-center w-100 bg-light p-3 shadow-sm">
+        <h1 class="float-start text-success">Villa-Shop</h1>
         <nav class="navbar navbar-expand-lg float-end">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -41,36 +41,40 @@
             </div>
         </nav>
     </header>
-    <div class="row row-cols-lg-2 gx-1">
-        <section class="col bg-danger">
-            <img src="./img/image1.webp" alt="image1">
+    <div class="row row-cols-lg-2 mx-0">
+        <section class="col p-2 pb-0">
+            <img class="w-100 object-fit-cover"  src="./img/image1.webp" alt="image1">
         </section>
-        <div class="row row-cols-1">
+        <div class="d-flex flex-column p-2 pt-0">
             <section class="col pt-2 text-center fs-6">
                 <h2 class="p-0">Max Sport</h2>
             </section>
-            <section class="col p-2 fs-6 overflow-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatibus quos impedit earum minima
-                soluta iste autem unde quisquam sunt nostrum, alias amet inventore quaerat voluptates magni rem sed, ea
-                enim ad nobis suscipit ut! Asperiores optio ipsum veniam. Aperiam ipsa magnam neque excepturi asperiores
-                maiores adipisci quidem repellendus praesentium, minima autem sed, soluta sunt alias. Dolorem sunt
-                obcaecati dolore ipsam quaerat ex aspernatur sapiente id ad aliquid deserunt vel ea in atque, corporis
-                fuga nesciunt repellendus est sequi eveniet alias culpa! Itaque nemo nesciunt aperiam eius in odit
-                expedita ipsam, sapiente quaerat facilis, atque deserunt, autem veritatis officia cupiditate.
+            <section class="col mb-3">
+                <p class="fs-6 text-break m-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatibus quos impedit earum minima
+                    soluta iste autem unde quisquam sunt nostrum, alias amet inventore quaerat voluptates magni rem sed, ea
+                    enim ad nobis suscipit ut! Asperiores optio ipsum veniam. Aperiam ipsa magnam neque excepturi asperiores
+                    maiores adipisci quidem repellendus praesentium, minima autem sed, soluta sunt alias. Dolorem sunt
+                    obcaecati dolore ipsam quaerat ex aspernatur sapiente id ad aliquid deserunt vel ea in atque, corporis
+                    fuga nesciunt repellendus est sequi eveniet alias culpa! Itaque nemo nesciunt aperiam eius in odit
+                    expedita ipsam, sapiente quaerat facilis, atque deserunt, autem veritatis officia cupiditate.
+                </p>
             </section>
-            <section class="col d-flex justify-content-between">
-                <div class="d-flex">
-                    <div class=" p-1 rounded-circle">
-                        <img class="object-fit-cover" src="./img/image2.webp" alt="img">
+            <section class="col w-100 d-flex justify-content-between">
+                <div class="d-flex flex-row align-items-center">
+                    <div class="w-50 p-1">
+                        <img class="w-100 rounded-circle  object-fit-cover border" src="./img/image2.webp" alt="img">
                     </div>
-                    <div class="rounded-circle">
-                        <img class="object-fit-cover" src="./img/image3.webp" alt="img">
+                    <div class="w-50 p-1">
+                        <img class="w-100 rounded-circle object-fit-cover border" src="./img/image3.webp" alt="img">
                     </div>
-                    <div class="rounded-circle">
-                        <img class="object-fit-cover" src="./img/image1.webp" alt="img">
+                    <div class="w-50 p-1">
+                        <img class="w-100 rounded-circle object-fit-cover border" src="./img/image1.webp" alt="img">
                     </div>
                 </div>
-                <button type="button" class="btn btn-outline-success">Comprar</button>
+                <div class="d-flex align-items-center">
+                    <button type="button" class="btn btn-outline-success fs-7 px-1 ms-3">Comprar</button>
+                </div>                 
             </section>
         </div>
     </div>
